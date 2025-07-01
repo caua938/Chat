@@ -84,7 +84,7 @@ if(perguntaSenha===Senha){
         login.style.display = "none"
         chat.style.display = "flex"
 
-        websocket = new WebSocket("wss://watchat.onrender.com")
+        websocket = new WebSocket("wss://chatcomsenha-grfd.onrender.com")
         websocket.onmessage = processMessage
         
     }
