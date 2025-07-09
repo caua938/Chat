@@ -1,7 +1,6 @@
 
 const Senha = "284938i73f";
 const perguntaSenha = prompt("Digite a senha:");
-localStorage.removeItem("chatHistory")
 if (perguntaSenha !== Senha) {
   alert("Senha errada");
   throw new Error("Acesso negado");
