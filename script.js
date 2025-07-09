@@ -23,7 +23,8 @@ function loadChatHistory() {
   return JSON.parse(localStorage.getItem("chatHistory")) || [];
 }
 function saveChatHistory(history) {
-  localStorage.setItem("chatHistory", JSON.stringify(history));  
+  localStorage.setItem("chatHistory", JSON.stringify(history));
+  localStorage.removeItem("chatHistory")
 
 }
 
